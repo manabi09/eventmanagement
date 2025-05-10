@@ -125,7 +125,7 @@ FRONTEND_URL=http://localhost:5173
 # Database Configuration
 DB_HOST=localhost
 DB_USER=your_username
-DB_PASSWORD=your_password
+DB_PASSWORD=your_password // set a valid password if your password is by default('')
 DB_NAME=easyevent_db
 DB_PORT=3306
 
@@ -137,6 +137,7 @@ JWT_EXPIRES_IN=24h
 ```
 
 ### Step 4: Database Setup
+
 
 ```sql
 CREATE DATABASE easyevent_db;
